@@ -59,6 +59,10 @@ $('.my-form').on('submit', (e) => {
         e.preventDefault();
         $('.error').html('※名前が入力されていません');
         $('html, body').animate({ scrollTop: 0 }, 300);
+      } else if (email1 === '') {
+        e.preventDefault();
+        $('.error').html('※メールアドレスが入力されていません');
+        $('html, body').animate({ scrollTop: 0 }, 300);
       } else if (email1 !== email2) {
         e.preventDefault();
         $('.error').html('※メールアドレスが一致しません');
