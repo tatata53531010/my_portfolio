@@ -467,6 +467,10 @@ form small {
     #wrapper {
         margin: 0 8px;
     }
+	
+    footer {
+        width: auto;
+    }
     
 
     /* index.html - キービジュアル */
