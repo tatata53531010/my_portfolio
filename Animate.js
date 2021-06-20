@@ -17,5 +17,5 @@ $('.animated').waypoint({
       }
     },
     // 要素が画面中央に来たらhandlerを実行
-    offset: '70%',
+    offset: '80%',
   });
