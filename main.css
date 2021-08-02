@@ -461,6 +461,12 @@ form small {
 }
 
 
+/* profile.html */
+.content_test {
+    display: flex;
+}
+
+
 /* スマートフォン向けcss */
 @media (max-width: 767px) {
     /* 全てのwebページに適用される */
