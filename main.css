@@ -465,6 +465,9 @@ form small {
 .profile_item {
     display: flex;
 }
+.line_height {
+    vertical-align: middle;
+}
 
 
 /* スマートフォン向けcss */
